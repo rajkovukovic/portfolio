@@ -1,0 +1,16 @@
+.borderb {
+    overflow: hidden;
+    position: relative;
+    bottom: 40px;
+    border-top-left-radius: 500px 20px;
+    border-top-right-radius: 500px 20px;
+    border-bottom: none;
+    background-color: #181818d7;
+    text-align: center;
+    padding: 3.25rem 1.5rem;
+    color: rgba(255, 255, 255, 0.609);
+}
+
+h1 {
+    color: rgb(223, 69, 69);
+}

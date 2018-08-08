@@ -1,0 +1,20 @@
+.borderm {
+    overflow:hidden;
+    position: relative;
+    bottom: 30px;
+    border-top-left-radius: 500px 20px;
+    border-top-right-radius: 500px 20px;
+    background-color: #181818ed;
+    text-align: center;
+    padding: 3.25rem 1.5rem 2.5rem;
+    color: rgba(255, 255, 255, 0.609);
+}
+
+span {
+    color: rgb(223, 69, 69);
+}
+
+.left-align {
+    display: inline-block;
+    text-align: left;
+}

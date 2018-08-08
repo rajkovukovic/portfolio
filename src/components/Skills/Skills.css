@@ -1,0 +1,41 @@
+.img {
+    height: 50px;
+    width: 50px;
+}
+
+.border {
+    overflow:hidden;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    position: relative;
+    bottom: 18px;
+    border-top-left-radius: 500px 20px;
+    border-top-right-radius: 500px 20px;
+    background-color: #181818;
+    text-align: center;
+    padding: 3.25rem 1.5rem 2.5rem;
+}
+
+.react-color {
+    color: #00CCFF;
+}
+
+.redux-color {
+    color: #7c3cbb;
+}
+
+.jquery-color {
+    color: rgba(0, 153, 255, 0.877);
+}
+
+.javascript-color {
+    color: #FFFF00;
+}
+
+.html5-color {
+    color: #FF6633;
+}
+
+.css3-color {
+    color: rgb(58, 125, 224);
+}
