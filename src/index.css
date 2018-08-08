@@ -3,3 +3,32 @@ body {
   padding: 0;
 }
 
+.segment-wrapper {
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: -14px;
+}
+
+.segment-arch {
+  position: relative;
+  overflow: hidden;
+  height: 14px;
+}
+
+.segment-arch::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  margin-left: -25%;
+  width: 150%;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.segment-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  overflow:hidden;
+  text-align: center;
+  padding: 3.25rem 1.5rem 2.5rem;
+}
